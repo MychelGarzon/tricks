@@ -45,6 +45,10 @@ li {
   display: inline-block;
 }
 
+a {
+  color: inherit;
+  padding: 10px;
+}
 .btn {
   border: none;
   border-radius: 5px;
@@ -71,7 +75,7 @@ li {
 }
 
 .overlay {
-  background-color: rgba(152, 126, 126, 0.8);
+  background-color: rgba(219, 143, 86, 0.9);
   position: fixed;
   left: 0;
   top: 0;
@@ -81,13 +85,14 @@ li {
   justify-content: center;
   align-items: center;
   text-align: justify;
+  color: antiquewhite;
 }
 .overlay.visible {
   display: flex;
 }
 
 .modal {
-  background-color: white;
+  background-color: #ffa600;
   margin: 2rem;
   padding: 1rem;
   border-radius: 5px;
@@ -98,6 +103,7 @@ li {
   position: absolute;
   top: 1rem;
   right: 1rem;
+  background-color: #16db73;
 }
 
 @media (max-width: 500px) {
