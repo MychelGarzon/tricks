@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-color: skyblue;
+  background-image: linear-gradient(to bottom right, skyblue, gray);
   font-family: 'Lato', sans-serif;
 }
 section,
@@ -92,9 +92,9 @@ a {
 }
 
 .modal {
-  background-color: #ffa600;
+  background-image: linear-gradient(to bottom right, skyblue, gray);
   margin: 2rem;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 5px;
   max-width: 600px;
   position: relative;
@@ -103,7 +103,8 @@ a {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background-color: #16db73;
+  background-color: gray;
+  color: #ffa600;
 }
 
 @media (max-width: 500px) {
